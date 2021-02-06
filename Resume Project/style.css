@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+}
+/*body Header*/
+#body-header{
+    background-image: url(image/macbook_mouse.jpg);
+    height:65vh;
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.social-icon  li{
+    display: inline-block;
+    margin: 0px 20px 20px 0px;
+        /*height:65vh;*/
+
+    /*height: 65vh;*/
+    /*width: 10px;*/
+    /*background-image: url( https://ninjasfiles.s3.amazonaws.com/asset_0000000000000015_1549330433_linkedin-logo.png);*/
+}
+.social-icon{
+    background-position: center;
+    align-content: center;
+}
+#name{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+/*Horizontal-list*/
+.horizontal-list{
+    list-style: none;
+
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 10px 10px 0px;
+
+
+}
+.horizontal-list li a{
+    text-decoration: none;
+    color: white;
+    transition: color 2s, border-bottom 5s;
+
+}
+
+.horizontal-list li a:hover{
+    color: lightgrey;
+    border-bottom: solid lightgrey 2px;
+
+}
+
+.text-center{
+    text-align: center;
+}

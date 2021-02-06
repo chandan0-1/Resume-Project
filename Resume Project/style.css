@@ -11,28 +11,27 @@ body{
     background-attachment: fixed;
 }
 
-.social-icon  li{
-    display: inline-block;
-    margin: 0px 20px 20px 0px;
-        /*height:65vh;*/
 
-    /*height: 65vh;*/
-    /*width: 10px;*/
-    /*background-image: url( https://ninjasfiles.s3.amazonaws.com/asset_0000000000000015_1549330433_linkedin-logo.png);*/
-}
-.social-icon{
-    background-position: center;
-    align-content: center;
-}
-#name{
+
+.name{
+    margin-top: 40px;
     text-align: center;
-    font-size: 60px;
-    margin-top: 100px;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color:white;
+    margin-bottom:  0.5rem;
+    font-weight: 700;
 }
 
+/*.profile-pic img{
+    height: 300px;
+    width:300px;
+    margin-top: -150px;
+}*/
 /*Horizontal-list*/
 .horizontal-list{
     list-style: none;
+
 
 }
 .horizontal-list li{
@@ -48,12 +47,49 @@ body{
 
 }
 
-.horizontal-list li a:hover{
+.nav ul li a:hover{
     color: lightgrey;
     border-bottom: solid lightgrey 2px;
 
 }
+.social-icon  li a img{
+    width: 1.1rem;
+    color :red;
+    margin: 20px;
 
+}
+.social-icon  li a img:hover{
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+
+}
 .text-center{
     text-align: center;
+
+}
+
+/*about section*/
+#about{
+    height:auto;
+    width:100%;
+}
+
+.profile-pic img{
+    margin-top: -120px;
+    height:12rem;/*300px;*/
+    width: 12rem;/*300px;*/
+    border-radius:50%;
+    position: relative;
+    box-shadow: 0px 0px 6px 4px lightgrey;
+}
+
+#about p{
+    font-size: 24px;
+    margin-right: 170px;
+    margin-left: 170px;
+    letter-spacing: 3px;
+    line-height: 40px;
+    /*font-family: */
+    color : grey;
+
 }

@@ -91,5 +91,72 @@ body{
     line-height: 40px;
     /*font-family: */
     color : grey;
+}
 
+section{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(2n){
+    background-color: grey;
+}
+section:nth-child(2n+1){
+    background-color: white;
+}
+
+.skills-heading{
+    width:auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+
+.skills-heading span{
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+
+
+
+.skills-display{
+    width:70%;
+    padding:10px;
+    margin-bottom: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills-progress{
+    background-color: lightgrey;
+    width:7rem;
+    height:1.4rem;
+    border-radius: 0.8rem;
+}
+
+.skill-name span{
+    margin-left:10px;
+    font-size: 1rem;
+    color: white;
+    vertical-align: middle;
+}
+
+
+.skills-progress>div{
+    border-radius: 20px 0px 0px 20px;
+}
+
+.color-blue{
+    background-color: #2857a4;
+}
+
+.eighty-five-percent{
+    width:80%;
+    height: inherit;
 }

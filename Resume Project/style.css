@@ -123,8 +123,6 @@ section:nth-child(2n+1){
 }
 
 
-
-
 .skills-display{
     width:60%;
     padding:10px;
@@ -154,6 +152,7 @@ section:nth-child(2n+1){
     font-size: 1rem;
     color: white;
     vertical-align: middle;
+    /*text-align:center;*/
 }
 
 
@@ -195,6 +194,7 @@ section:nth-child(2n+1){
     height: inherit;
 }
 
+
 .seventy-percent{
     width:70%;
     height: inherit;
@@ -204,3 +204,35 @@ section:nth-child(2n+1){
     width:75%;
     height: inherit;
 }
+
+/*Portfolio-Section*/
+#portfolio>h1{
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+
+}
+#portfolio>span{
+    width:auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+
+.portfolio-display{
+    width:75%;
+    padding:10px;
+    margin-bottom: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.portfolio-display span img{
+    width:400px;
+}
+
+.portfolio-display span img:hover{
+    color:red;}

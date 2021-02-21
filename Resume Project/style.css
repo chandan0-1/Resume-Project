@@ -4,7 +4,9 @@ body{
     font-size: 30px;
 }
 
-
+#qu::before{
+    content: """";
+}
 
 /*body Header*/
 #body-header{
@@ -212,7 +214,7 @@ section:nth-child(2n+1){
 }
 
 /*Portfolio-Section*/
-#portfolio>h1{
+#portfolio>p{
     font-size: 40px;
     color: #2857a4;
     display: inline-block;
@@ -271,8 +273,50 @@ section:nth-child(2n+1){
     background-color: #80808078;
 }
 
-/*.image-container:hover{
+/*Contact-Section*/
+
+#contact-heading{
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
 }
 
-.image-container:hover .portfolio-details{
-}*/
+#contact{
+    background: linear-gradient(to right, #2857a4,#403066);
+    /*opacity: 50;*/
+}
+
+#form-part {
+    /*width:300px;*/
+    display: inline-block;
+    left: 0;
+    size:400px;
+}
+
+.input-part-background{
+    background-color: transparent; 
+    border:none;
+    border-bottom: solid 2px white;
+}
+#form-part span{
+    display: block;
+
+}
+.input-size{
+    width: 400px;
+    height: 20px;
+    font-size: 20px;
+}
+
+#personal-part{
+    display: inline-block;
+    color: white;
+    padding-left: 400px;
+    align-content: center;
+}
+#button{
+    background-color: transparent;
+    border:solid 2px white;
+}
